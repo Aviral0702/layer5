@@ -9,7 +9,7 @@ const CardComponent = ({ tutorial, path, courseCount }) => {
     <CardWrapper>
       {tutorial.frontmatter.disabled === "yes" ?  (
         <div
-          style={{ borderTop: `5px solid ${tutorial.frontmatter.themeColor}`, marginBottom: '3rem' }}
+          style={{ borderTop: `5px solid ${tutorial.frontmatter.themeColor}`, marginBottom: "3rem" }}
           className="card-parent card-2"
         >
 
